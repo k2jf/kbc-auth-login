@@ -11,6 +11,9 @@ wangliheng@k2data.com.cn
 
 ## 示例
 ```
+1. git remote add -f kbc-login git@github.com:k2jf/kbc-login.git
+
+2. git subtree add -P src/main/java/com/k2data/kbc/login kbc-login master --squash
 
 
 
