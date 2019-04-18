@@ -21,12 +21,12 @@ wangliheng@k2data.com.cn
 ```
 1. 不拦截路径：“/login”、"/register"
 2. 登录接口
-   请求参数
-| 属性        | 说明     | 类型   | 默认值 |
-| ----------- | -------- | ------ | ------ |
-|userName| 用户名| String| Null|
-|password| 密码| String| Null|
 
 ```
+请求参数
 
+| 属性        | 说明     | 类型   | 默认值 |
+| ----------- | -------- | ------ | ------ |
+| userName | 用户名 | String | Null | 
+| password | 密码 | String | Null |
 
