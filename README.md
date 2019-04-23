@@ -30,3 +30,4 @@ wangliheng@k2data.com.cn
 | userName | 用户名 | String | Null | 
 | password | 密码 | String | Null |
 
+http://localhost:9080/login?userName=admin&password=admin
