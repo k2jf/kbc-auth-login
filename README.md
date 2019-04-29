@@ -1,35 +1,30 @@
-# kbc-demo
+# kbc-auth-login
 
 ## 功能
-集成kbc的各个组件，用于演示目的。
+用户验证
 
 ## 维护者
-zhanghao
+wangliheng@k2data.com.cn
 
-## 使用说明
 
-### 环境要求：
-- java 8或以上版本
-- maven 3或以上版本
-- git 1.8或以上版本
+## git拉取示例
+```
+1. git remote add -f kbc-auth-login git@github.com:k2jf/kbc-auth-login.git
 
-### 下载代码
-```bash
-git clone git@github.com:k2jf/kbc-demo.git
+2. git subtree add -P src/main/java/com/k2data/kbc/auth/login kbc-auth-login master --squash
 ```
 
-### 启动服务
-```bash
-cd kbc-demo
-mvn spring-boot:run
+##说明
 ```
+1. 不拦截路径："/login"、"/register"
+2. 登录接口
 
-### kbc-auth-login  如需登录
 ```
+请求参数
+
+| 属性        | 说明     | 类型   | 默认值 |
+| ----------- | -------- | ------ | ------ |
+| userName | 用户名 | String | Null | 
+| password | 密码 | String | Null |
+
 http://localhost:9080/login?userName=admin&password=admin
-```
-### 查看接口文档
-```
-http://localhost:9080/swagger-ui.html#/
-
-```
